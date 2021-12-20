@@ -1,2 +1,19 @@
-a = 100
-b = 200
+N = int(input())
+count = 0
+if(N>=500):
+    while(N>=500):
+        N-=500
+        count +=1
+if(N>=100):
+    while(N>=100):
+        N-=100
+        count +=1
+if(N>=50):
+    while(N>=50):
+        N-=50
+        count +=1
+if(N>=10):
+    while(N>=10):
+        N-=10
+        count +=1
+print(count)
